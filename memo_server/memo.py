@@ -4,6 +4,7 @@ import requests
 import json
 import urllib
 import string
+from config import client_id, client_secret, redirect_uri
 
 from flask import (
     abort,
@@ -18,9 +19,9 @@ from flask import (
 app = Flask(__name__)
 
 
-naver_client_id = '2hVsa6H4fcfkOXNtVkyc'
-naver_client_secret = 'afwIi6S35s'
-naver_redirect_uri = 'http://mjubackend.duckdns.org:10113/auth'
+naver_client_id = client_id
+naver_client_secret = client_secret
+naver_redirect_uri = redirect_uri
 user_id_map = {}
 
 

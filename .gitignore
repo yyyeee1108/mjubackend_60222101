@@ -1,2 +1,7 @@
 /.vscode
-/chat_client
+chat_client/
+lab2/
+lab8/
+lab9/
+practice/
+config.py
